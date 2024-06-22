@@ -285,7 +285,7 @@ def show_help(message):
 
  To See Admin Commands:
  /admincmd : Shows All Admin Commands.
- By  @venomXcrazy
+ By  @babaXcrazy
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -329,7 +329,7 @@ Pr-ice List:
 Day-->100 Rs
 Week-->250 Rs
 Month-->600 Rs
-By  @venomXcrazy
+By  @babaXcrazy
 '''
     bot.reply_to(message, response)
 
@@ -344,7 +344,7 @@ def welcome_plan(message):
 /logs : All Users Logs.
 /broadcast : Broadcast a Message.
 /clearlogs : Clear The Logs File.
-By  @venomXcrazy
+By  @babaXcrazy
 '''
     bot.reply_to(message, response)
 
